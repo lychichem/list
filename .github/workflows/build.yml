@@ -46,12 +46,12 @@ jobs:
       - name: Get every files
         id: download
         run: |
-          curl -sSL -o $GITHUB_WORKSPACE/list/ad-edentw.txt https://github.com/lychichem/list/releases/latest/download/ad-edentw.txt
-          curl -sSL -o $GITHUB_WORKSPACE/list/ad-mo.txt https://github.com/lychichem/list/releases/latest/download/ad-mo.txt
-          curl -sSL -o $GITHUB_WORKSPACE/list/ad-pc.txt https://github.com/lychichem/list/releases/latest/download/ad-pc.txt
-          curl -sSL -o $GITHUB_WORKSPACE/list/ad.txt https://github.com/lychichem/list/releases/latest/download/ad.txt
-          curl -sSL -o $GITHUB_WORKSPACE/list/ad2.txt https://github.com/lychichem/list/releases/latest/download/ad2.txt
-          curl -sSL -o $GITHUB_WORKSPACE/list/ad3.txt https://github.com/lychichem/list/releases/latest/download/ad3.txt
+          curl -sSL -o ./ad-edentw.txt https://github.com/lychichem/list/releases/latest/download/ad-edentw.txt
+          curl -sSL -o ./ad-mo.txt https://github.com/lychichem/list/releases/latest/download/ad-mo.txt
+          curl -sSL -o ./ad-pc.txt https://github.com/lychichem/list/releases/latest/download/ad-pc.txt
+          curl -sSL -o ./ad.txt https://github.com/lychichem/list/releases/latest/download/ad.txt
+          curl -sSL -o ./ad2.txt https://github.com/lychichem/list/releases/latest/download/ad2.txt
+          curl -sSL -o ./ad3.txt https://github.com/lychichem/list/releases/latest/download/ad3.txt
           mkdir -p ./download/
           cd ./download
           curl -sSL $EASYLIST_URL | sed -e '/^! /d' -e '1c ! EasyList' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./easylist.txt
