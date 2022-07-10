@@ -46,12 +46,12 @@ jobs:
       - name: Get every files
         id: download
         run: |
-          curl -sSL https://github.com/lychichem/list/releases/latest/download/ad-edentw.txt | sed -e '/^! /d' -e '1c ! edentwCustom' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./ad-edentw.txt
-          curl -sSL https://github.com/lychichem/list/releases/latest/download/ad-mo.txt | sed -e '/^! /d' -e '1c ! My AdFilters（for Mobile）' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./ad-mo.txt
-          curl -sSL https://github.com/lychichem/list/releases/latest/download/ad-pc.txt | sed -e '/^! /d' -e '1c ! My AdFilters（or PC）' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./easylist.txt
-          curl -sSL https://github.com/lychichem/list/releases/latest/download/ad.txt | sed -e '/^! /d' -e '1c ! My AdFilters' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./easylist.txt
-          curl -sSL https://github.com/lychichem/list/releases/latest/download/ad2.txt | sed -e '/^! /d' -e '1c ! CJX's AdFilters' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./easylist.txt
-          curl -sSL https://github.com/lychichem/list/releases/latest/download/ad3.txt | sed -e '/^! /d' -e '1c ! AdFilters' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./easylist.txt
+          curl -sSL https://github.com/lychichem/list/releases/latest/download/ad-edentw.txt | sed -e '/^! /d' -e '1c ! edentwCustom' -e '/^!$/d' > ./ad-edentw.txt
+          curl -sSL https://github.com/lychichem/list/releases/latest/download/ad-mo.txt | sed -e '/^! /d' -e '1c ! My AdFilters（for Mobile）' -e '/^!$/d' > ./ad-mo.txt
+          curl -sSL https://github.com/lychichem/list/releases/latest/download/ad-pc.txt | sed -e '/^! /d' -e '1c ! My AdFilters（or PC）' -e '/^!$/d' > ./easylist.txt
+          curl -sSL https://github.com/lychichem/list/releases/latest/download/ad.txt | sed -e '/^! /d' -e '1c ! My AdFilters' -e '/^!$/d' > ./easylist.txt
+          curl -sSL https://github.com/lychichem/list/releases/latest/download/ad2.txt | sed -e '/^! /d' -e '1c ! CJX's AdFilters' -e '/^!$/d' > ./easylist.txt
+          curl -sSL https://github.com/lychichem/list/releases/latest/download/ad3.txt | sed -e '/^! /d' -e '1c ! AdFilters' -e '/^!$/d' > ./easylist.txt
           mkdir -p ./download/
           cd ./download
           curl -sSL $EASYLIST_URL | sed -e '/^! /d' -e '1c ! EasyList' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./easylist.txt
