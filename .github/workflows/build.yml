@@ -81,7 +81,7 @@ jobs:
         run: |
           mkdir -p ./old_no_title/
           chmod +x ./mod/addChecksum.pl
-          for i in $(ls ./download/ad*.txt); do
+          for i in $(ls ../download/ad*.txt); do
             sed '1,/^!$/d' $i > ./old_no_title/$i
           done
           diffFile="$(diff -q new/ old_no_title/ |grep -o '[a-zA-Z0-9-]\+.txt' |sort -u)"
