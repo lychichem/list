@@ -84,7 +84,7 @@ jobs:
           for i in $(ls ad*.txt); do
             sed '1,/^!$/d' $i > ./old_no_title/$i
           done
-          rm ../ad-pc.txt
+          rm ./ad-pc.txt
           diffFile="$(diff -q new/ old_no_title/ |grep -o '[a-zA-Z0-9-]\+.txt' |sort -u)"
           if [ -n "$diffFile" ]; then
             for i in $diffFile ; do
