@@ -78,6 +78,15 @@ jobs:
         id: diffResult
         if: steps.download.outputs.status == 'success'
         run: |
+          mkdir -p ./old_no_title/
+          curl https://github.com/lychichem/list/releases/latest/download/ad-pc.txt > ../ad-pc.txt
+          chmod +x ./mod/addChecksum.pl
+          for i in $(ls ad*.txt); do
+            sed '1,/^!$/d' $i > ./old_no_title/$i
+          done
+          rm ../ad-pc.txt
+          diffFile="$(diff -q new/ old_no_title/ |grep -o '[a-zA-Z0-9-]\+.txt' |sort -u)"
+          if [ -n "$diffFile" ]; then
             for i in $diffFile ; do
               titleName=$(echo "$i" |sed 's#.txt#-title.txt#')
               cat ./mod/$titleName ./new/$i > ./$i
@@ -85,6 +94,7 @@ jobs:
               perl ./mod/addChecksum.pl ./$i
               echo "::set-output name=status::success"
             done
+          fi
 
       - name: Release and upload assets
         uses: softprops/action-gh-release@v0.1.6
