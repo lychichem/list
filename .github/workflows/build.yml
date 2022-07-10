@@ -111,14 +111,6 @@ jobs:
             echo "::set-output name=status::failed"
           fi
 
-      - name: Deliver download Dir
-        uses: actions/upload-artifact@v3
-        if: steps.download.outputs.status == 'failed'
-        with:
-          name: AllFiles
-          path: |
-            ./download/
-
       - name: Release and upload assets
         uses: softprops/action-gh-release@v0.1.6
         with:
@@ -127,6 +119,6 @@ jobs:
           draft: false
           prerelease: false
           files: |
-            ./new/*
+            ./*
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
