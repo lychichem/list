@@ -54,6 +54,7 @@ jobs:
           curl -sSL $CJX_ANNOYANCE_URL | sed -e '/^! /d' -e "1c ! CJX's Annoyance List" -e '/^!$/d' -e '/The End/d'  -e '/^$/d' | sed '/热门话题/,+1d' > ./cjx-annoyance.txt
           sed -i '/!#include cjx-ublock.txt/c !#include https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt' ./cjx-annoyance.txt
           curl -sSL $XINGGSF_MV_URL | sed '/禁止站内新开窗/,+2d' | sed -e '/^! /d' -e '1c ! 乘风 视频广告过滤规则' -e '/^!$/d' -e '/^$/d' > ./xinggsf-mv.txt
+          curl -sSL https://github.com/lychichem/list/releases/latest/download/ad-pc.txt > ./ad-pc.txt
           for i in $(ls *.txt); do
             if [[ `cat $i |wc -l` -eq 0 ]]; then
               echo "::set-output name=status::failed"
@@ -79,7 +80,6 @@ jobs:
         if: steps.download.outputs.status == 'success'
         run: |
           mkdir -p ./old_no_title/
-          curl https://github.com/lychichem/list/releases/latest/download/ad-pc.txt > ../ad-pc.txt
           chmod +x ./mod/addChecksum.pl
           for i in $(ls ad*.txt); do
             sed '1,/^!$/d' $i > ./old_no_title/$i
