@@ -72,6 +72,7 @@ jobs:
           cd ./download
           cat ../mod/ad-pc-title.txt ../mod/GeneralBlock.txt ../mod/TiebaBlock.txt easylist.txt easylistchina.txt easyprivacy.txt cjx-annoyance.txt xinggsf-mv.txt > ../new/ad-pc.txt
           sed -i -e "s#201412030951#$TAG_NAME#" -e "s#201412030952#$MODIFIED_TIME#" ../new/ad-pc.txt
+          perl addChecksum.pl ad-pc.txt
           for i in $(ls ../new/*.txt); do
             sed -i '/^$/d' $i
           done
