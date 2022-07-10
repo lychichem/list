@@ -46,12 +46,12 @@ jobs:
       - name: Get every files
         id: download
         run: |
-          curl -sSL -O https://github.com/lychichem/list/releases/latest/download/ad-edentw.txt
-          curl -sSL -O https://github.com/lychichem/list/releases/latest/download/ad-mo.txt
-          curl -sSL -O https://github.com/lychichem/list/releases/latest/download/ad-pc.txt
-          curl -sSL -O https://github.com/lychichem/list/releases/latest/download/ad.txt
-          curl -sSL -O https://github.com/lychichem/list/releases/latest/download/ad2.txt
-          curl -sSL -O https://github.com/lychichem/list/releases/latest/download/ad3.txt
+          curl -sSL -o https://github.com/lychichem/list/releases/latest/download/ad-edentw.txt ./ad-edentw.txt
+          curl -sSL -o https://github.com/lychichem/list/releases/latest/download/ad-mo.txt ./ad-mo.txt
+          curl -sSL -o https://github.com/lychichem/list/releases/latest/download/ad-pc.txt ./ad-pc.txt
+          curl -sSL -o https://github.com/lychichem/list/releases/latest/download/ad.txt ./ad.txt
+          curl -sSL -o https://github.com/lychichem/list/releases/latest/download/ad2.txt ./ad2.txt
+          curl -sSL -o https://github.com/lychichem/list/releases/latest/download/ad3.txt ./ad3.txt
           mkdir -p ./download/
           cd ./download
           curl -sSL $EASYLIST_URL | sed -e '/^! /d' -e '1c ! EasyList' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./easylist.txt
