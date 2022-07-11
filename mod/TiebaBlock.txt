@@ -15,9 +15,9 @@
 ||bdstatic.com/tb/static-common/js/pic_share/logger.js
 ||bdstatic.com/tb/static-pb/img/voice_ad.gif
 ! iTieba & Homepage
-jump.bdimg.com,tieba.baidu.com###adide_platform，#media_item，#spage_game_tab_wrapper，#spage_liveshow_slide，#plat_act_wrapper，.ihome_aside_section[j-mygift]，.ihome_game_group，.member_rank，.userinfo_scores
+jump.bdimg.com,tieba.baidu.com###adide_platform,#media_item,#spage_game_tab_wrapper,#spage_liveshow_slide,#plat_act_wrapper,.ihome_aside_section[j-mygift],.ihome_game_group,.member_rank,.userinfo_scores
 ! Top Right
-jump.bdimg.com,tieba.baidu.com##.fMember_cnt，.split，.u_app，.u_appcenterEntrance，.u_bdhome，.u_blue，.u_game，.u_grab_treasure，.u_joinvip，.u_split，.u_member,.u_menu_tbmall,.u_mytbmall,.u_xiu8,.u_wallet
+jump.bdimg.com,tieba.baidu.com##.fMember_cnt,.split,.u_app,.u_appcenterEntrance,.u_bdhome,.u_blue,.u_game,.u_grab_treasure,.u_joinvip,.u_split,.u_member,.u_menu_tbmall,.u_mytbmall,.u_xiu8,.u_wallet
 ! Top
 jump.bdimg.com,tieba.baidu.com###local_board,#j_navtab_wanle,#j_navtab_game,.gift-goin,.icon_group,.j_tbnav_tab_a[stats-data^="fr=tb0_forum&st_mod=frs&st_value=tabgroup"],.star_nav_ico_activity,.star_nav_ico_deal,.star_nav_ico_group,.star_nav_ico_tuan
 ! Sides
