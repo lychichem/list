@@ -28,12 +28,4 @@ jump.bdimg.com,tieba.baidu.com###top_activity,.achievement_medal_wrapper,.card_u
 jump.bdimg.com,tieba.baidu.com###bdshare,#guide_fc,#xiu8_follow_warn,.add_guessing_btn,.edui-btn-medal,.edui-btn-paypost,.j_surveillance,.showBar
 ! Mobile
 ||tieba.baidu.com/mo/q/appSpecialThread
-tieba.baidu.com##.client_ghost_icon
-tieba.baidu.com##.daoliu_sign_in_show
-tieba.baidu.com##.dia_mask
-tieba.baidu.com##.dia_wrapper
-tieba.baidu.com##.forum_recommend_w
-tieba.baidu.com##.light_top_ext_area
-tieba.baidu.com##.j_click_stats, .j_click_stats+*
-tieba.baidu.com##.more_btn_package
-tieba.baidu.com##.tuijian-wrap
+tieba.baidu.com##.client_ghost_icon,.daoliu_sign_in_show,.dia_mask,.dia_wrapper,.forum_recommend_w,.light_top_ext_area,.j_click_stats, .j_click_stats+*,.more_btn_package,.tuijian-wrap
