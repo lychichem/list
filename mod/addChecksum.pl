@@ -15,13 +15,6 @@ die "Usage: $^X $0 subscription.txt\n" unless @ARGV;
 foreach my $file (@ARGV) {
   my $data = readFile($file);
 
-  # Get existing checksum.
-  $data =~ /^.*!\s*checksum[\s\-:]+([\w\+\/=]+).*\n/gmi;
-  my $oldchecksum = $1;
-
-  # Remove already existing checksum.
-  $data =~ s/^.*!\s*checksum[\s\-:]+([\w\+\/=]+).*\n//gmi;
-
   # Calculate new checksum: remove all CR symbols and empty
   # lines and get an MD5 checksum of the result (base64-encoded,
   # without the trailing = characters).
@@ -31,13 +24,6 @@ foreach my $file (@ARGV) {
 
   # Calculate new checksum
   my $checksum = md5_base64($checksumData);
-
-  # If the old checksum matches the new one bail.
-  if ($checksum eq $oldchecksum)
-  {
-    $data = ();
-    next;
-  }
 
   # Update the date.
   my @months = qw(Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec);
