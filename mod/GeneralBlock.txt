@@ -19,6 +19,7 @@ m.jd.com##.download-pannel
 m.jiemian.com###js-b-ad
 m.qidian.com###fixBoxs, #read_app_download
 news.sina.com.cn##.news_weixin_ercode
+pc.yiyouliao.com##.yyl-ads-swiper
 yahoo.com###my-adsFPL,.js-stream-featured-ad
 vdisk.weibo.com###ads_layer
 weibo.cn##.tips.m-container-max
