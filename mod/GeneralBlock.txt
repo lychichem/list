@@ -2,7 +2,7 @@
 tieba.baidu.com###pagelet_entertainment-liveshow\/pagelet\/video_head
 ! Start
 500px.com###hellobar
-avgle.com###ps32-container,.video-banner,.col-sm-7.col-md-8.col-lg-8 > div.alert-danger.alert-dismissable.alert
+avgle.com###ps32-container,.video-banner,.col-sm-7.col-md-8.col-lg-8 > div.alert-danger.alert-dismissable.alert,#exo-native
 bbs.pcbeta.com##.x_m.pb_tan:upward(1)
 bbs.pcbeta.com##[class^="_jc"]:upward(4)
 bing.com###banner
