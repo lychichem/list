@@ -20,7 +20,9 @@ m.jiemian.com###js-b-ad
 m.qidian.com###fixBoxs, #read_app_download
 news.sina.com.cn##.news_weixin_ercode
 pc.yiyouliao.com##.yyl-ads-swiper
-yahoo.com###my-adsFPL,.js-stream-featured-ad
+tumblr.com##.standalone-ad-container
+tv.cctv.com##.tuijain_1013
+twitter.com##.presented
 vdisk.weibo.com###ads_layer
 weibo.cn##.tips.m-container-max
 www.1069gay.net###shortcut
@@ -39,10 +41,9 @@ www.pixiv.net##.expahI.sc-12xjnzy-1,.NzNc.sc-3mzzpc-0,.jqMLBd.gcrJTU.sc-zfvkpm-0
 www.raybt.com##td[width="13"]
 www.serebii.net###content > .center
 www.yizhibo.com##.register_guide
-tumblr.com##.standalone-ad-container
-twitter.com##.presented
 www.xilinjie.com###xlj-da-block-overlay
 xhamster.com##.sponsorBottom
+yahoo.com###my-adsFPL,.js-stream-featured-ad
 .com/c.gif?
 .cn/a.gif?
 .cn/b.gif?
