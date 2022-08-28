@@ -8,7 +8,7 @@ bbs.pcbeta.com##[class^="_jc"]:upward(4)
 bing.com###banner
 coding.net##.smart-app-banner
 coolapk.com##[style*="position: fixed;bottom: 0"]
-dongtidemimi.org##.item-myimg.item
+dongtidemimi.org##.item-myimg.item,.row
 engadget.com###ldrBoardAd
 gelbooru.com##A[href*="ads="]
 github.com##.js-notice
