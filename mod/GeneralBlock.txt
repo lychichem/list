@@ -45,6 +45,7 @@ www.yizhibo.com##.register_guide
 www.xilinjie.com###xlj-da-block-overlay
 xhamster.com##.sponsorBottom
 yahoo.com###my-adsFPL,.js-stream-featured-ad
+zhihu.com##div:last-of-type[class*="css-"]
 .com/c.gif?
 .cn/a.gif?
 .cn/b.gif?
