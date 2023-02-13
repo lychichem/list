@@ -9,6 +9,8 @@ bing.com###banner
 coding.net##.smart-app-banner
 coolapk.com##[style*="position: fixed;bottom: 0"]
 dongti2022.com##.__single_0.wpcom_myimg_wrap,#modules-34,#modules-33
+||s2.1231218.xyz/uploads/ad/d7d7e74b603f43b3be766ddb49ee57b2.jpg$image
+||img.solomon89.xyz/images/63e5f0c99da3db01693af67a.gif$image
 engadget.com###ldrBoardAd
 gelbooru.com##A[href*="ads="]
 github.com##.js-notice
