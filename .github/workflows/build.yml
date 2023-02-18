@@ -75,7 +75,7 @@ jobs:
           done
 
       - name: Generate adblock files
-        if: steps.download.outputs.status == 'success'
+        if: $GITHUB_OUTPUT == 'success'
         run: |
           mkdir -p ./new/
           cd ./download
@@ -91,7 +91,7 @@ jobs:
 
       - name: Diff and addChecksum
         id: diffResult
-        if: steps.download.outputs.status == 'success'
+        if: $GITHUB_OUTPUT == 'success'
         run: |
           mkdir -p ./old_no_title/
           chmod +x ./mod/addChecksum.pl
@@ -112,7 +112,7 @@ jobs:
           fi
 
       - name: Release and upload assets
-        uses: softprops/action-gh-release@v0.1.6
+        uses: softprops/action-gh-release@v0.1.15
         with:
           name: ${{ env.RELEASE_NAME }}
           tag_name: ${{ env.TAG_NAME }}
