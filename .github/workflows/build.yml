@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Go 1.x
-        uses: actions/setup-go@v3
+        uses: actions/setup-go@v3.5.0
         with:
           go-version: "^1.14"
 
@@ -66,10 +66,10 @@ jobs:
           curl -sSL $ANTI_ADBLOCK_KILLER_FILTERS_URL | sed -e '1c ! AakList (Anti-Adblock Killer)' -e '/^! Title/,/^! RegExpVisualizer/d' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./anti-adblock-killer-filters.txt
           for i in $(ls *.txt); do
             if [[ `cat $i |wc -l` -eq 0 ]]; then
-              echo "::set-output name=status::failed"
+              echo "::set-output name={status}::{failed}" >> $GITHUB_OUTPUT
               break
             else
-              echo "::set-output name=status::success"
+              echo "::set-output name={status}::{success}" >> $GITHUB_OUTPUT
               echo "" >> $i
             fi
           done
@@ -105,10 +105,10 @@ jobs:
               cat ./mod/$titleName ./new/$i > ./$i
               sed -i -e "s#201412030951#$TAG_NAME#" -e "s#201412030952#$MODIFIED_TIME#" ./$i
               perl ./mod/addChecksum.pl ./$i
-              echo "::set-output name=status::success"
+              echo "::set-output name={status}::{success}" >> $GITHUB_OUTPUT
             done
           else
-            echo "::set-output name=status::failed"
+            echo "::set-output name={status}::{failed}" >> $GITHUB_OUTPUT
           fi
 
       - name: Release and upload assets
