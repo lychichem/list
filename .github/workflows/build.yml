@@ -75,7 +75,7 @@ jobs:
           done
 
       - name: Generate adblock files
-        if: ${GITHUB_OUTPUT} == 'success'
+        if: GITHUB_OUTPUT == 'success'
         run: |
           mkdir -p ./new/
           cd ./download
@@ -91,7 +91,7 @@ jobs:
 
       - name: Diff and addChecksum
         id: diffResult
-        if: ${GITHUB_OUTPUT} == 'success'
+        if: GITHUB_OUTPUT == 'success'
         run: |
           mkdir -p ./old_no_title/
           chmod +x ./mod/addChecksum.pl
