@@ -8,7 +8,7 @@ bbs.pcbeta.com##[class^="_jc"]:upward(4)
 bing.com###banner
 coding.net##.smart-app-banner
 coolapk.com##[style*="position: fixed;bottom: 0"]
-dongti2023.com##.__single_0.wpcom_myimg_wrap,#modules-34,#modules-33,.swiper-slide[data-swiper-slide-index="0"],.swiper-slide[data-swiper-slide-index="1"]
+dongti2023.com###modules-35,#modules-34,#modules-33,.swiper-slide[data-swiper-slide-index="0"],.swiper-slide[data-swiper-slide-index="1"]
 ||s2.1231218.xyz/uploads/ad/d7d7e74b603f43b3be766ddb49ee57b2.jpg$image
 ||img.solomon89.xyz/images/63e5f0c99da3db01693af67a.gif$image
 engadget.com###ldrBoardAd
