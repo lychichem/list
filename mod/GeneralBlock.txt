@@ -173,7 +173,9 @@ hitomi.la##+js(noeval)
 ||prscripts.com^$third-party
 ||prpops.com^$third-party
 ||qiniucdn.com^$domain=enrz.com,image
+||restroomcalf.com
 ||revcontent.com^$third-party
+||revolvemockerycopper.com
 ||serving-sys.com^
 ||sexad.net^$third-party
 ||ssl.trace.zhiziyun.com^
@@ -190,6 +192,7 @@ hitomi.la##+js(noeval)
 ||trafficjunky.net^
 ||trafficfactory.biz^
 ||trafficstars.com^
+||treatyaccuserevil.com
 ||tribalfusion.com^
 ||trw12.com^$third-party
 ||uuxs.net^$subdocument
