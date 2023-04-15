@@ -229,6 +229,7 @@ hitomi.la##+js(noeval)
 @@||popo8.com^$domain=www.6park.com
 ! BiliBili
 live.bilibili.com##.bilibili-live-player-video-gift,.fans-medal-item-ctnr,.chat-item.gift-item,.chat-item.welcome-guard,.chat-item.welcome-msg,.guard-icon,.live-haruna-ctnr,.m-guard-ent,.outlink,.penury-gift-msg,.system-msg.news,.title-label,.user-level-icon,.vip-icon
+www.bilibili.com##.trial-feed-wrap
 ||api.live.bilibili.com/live_user/v1/Wish
 ! Cam4
 ||cam4.com/ads/
