@@ -5,6 +5,7 @@ tieba.baidu.com###pagelet_entertainment-liveshow\/pagelet\/video_head
 avgle.com###ps32-container,.video-banner,.col-sm-7.col-md-8.col-lg-8 > div.alert-danger.alert-dismissable.alert,#exo-native
 avgle.com##.col-lg-3.col-md-3.col-sm-6:has-text(AD)
 avgle.com##.col-sm-7.col-md-8:style(width:100% !important)
+avgle.com##.col-lg-3.col-md-3.col-sm-4:style(width:33.333333% !important)
 bbs.pcbeta.com##.x_m.pb_tan:upward(1)
 bbs.pcbeta.com##[class^="_jc"]:upward(4)
 bing.com###banner
