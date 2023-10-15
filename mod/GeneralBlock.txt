@@ -103,7 +103,6 @@ yahoo.com###my-adsFPL,.js-stream-featured-ad
 ||awempire.com^$third-party
 ||baifendian.com^$third-party
 ||blogamethu.com^
-||bobo.155unshwi6buiko.com^$xhr,domain=www.bissav.com
 ||bthand.com/static/js/default.js
 ||buysellads.com^$third-party
 ||cache.netease.com/cnews/js/qrcode.js
