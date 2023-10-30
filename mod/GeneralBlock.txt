@@ -35,7 +35,7 @@ www.1069gay.net###shortcut
 www.15yan.com##.tooltip
 www.52tian.net##.adwidewrap
 www.acfun.cn###guide-fix
-www.bissav.com##+js(m3u-prune, /^https/, /^https:\/\/vip1\.slbfsl\.com\/[0-9]{8}\/.*\/index.m3u8/)
+www.bissav.com##+js(m3u-prune, /^https/, /^https:\/\/vip[0-9]\.slbfsl\.com\/[0-9]{8}\/.*\/index.m3u8/)
 www.douyu.com##.giftbatter-box
 www.dwnews.com##.big2-gg
 www.freehao123.com##A[href*="/go/"]
