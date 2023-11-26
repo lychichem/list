@@ -79,6 +79,7 @@ yahoo.com###my-adsFPL,.js-stream-featured-ad
 @@||cdn.bootcss.com^$domain=openload.co|oload.tv|javno.me|imagebam.com|imagevenue.com|playvid.com|4horlover.com|linkshrink.net
 @@||googleapis.com^$domain=openload.co|oload.tv|javno.me|imagebam.com|imagevenue.com|playvid.com|4horlover.com|linkshrink.net
 !@@||googletagmanager.com/gtm.js$domain=www.nintendo.co.jp
+@@||img1.sexyno1.com/mk-banner/*$image,domain=www.playno1.com
 @@/js/ads.$domain=shrinklink.co
 ||115.com/static/plug/video_play/qrcode.js
 ||ad.directrev.com^$popup
