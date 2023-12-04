@@ -81,6 +81,7 @@ yahoo.com###my-adsFPL,.js-stream-featured-ad
 !@@||googletagmanager.com/gtm.js$domain=www.nintendo.co.jp
 @@||img1.sexyno1.com/mk-banner/*$image,domain=www.playno1.com
 @@/js/ads.$domain=shrinklink.co
+@@||www.playno1.com/data/attachment/common/cf/*$image,domain=www.playno1.com
 ||115.com/static/plug/video_play/qrcode.js
 ||ad.directrev.com^$popup
 ||ad.mail.ru^
