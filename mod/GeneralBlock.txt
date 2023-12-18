@@ -2,6 +2,7 @@
 tieba.baidu.com###pagelet_entertainment-liveshow\/pagelet\/video_head
 ! Start
 500px.com###hellobar
+7mmtv.sx##.ut1_img_content_js
 avgle.com###ps32-container,.video-banner,.col-sm-7.col-md-8.col-lg-8 > div.alert-danger.alert-dismissable.alert,#exo-native
 avgle.com##.col-lg-3.col-md-3.col-sm-6:has-text(AD)
 avgle.com##.col-sm-7.col-md-8:style(width:100% !important)
