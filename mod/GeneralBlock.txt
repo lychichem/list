@@ -12,7 +12,7 @@ bing.com###banner
 coding.net##.smart-app-banner
 coolapk.com##[style*="position: fixed;bottom: 0"]
 dongti233.com##.widget-graphic-cover
-dm530.in##+js(m3u-prune,/e61170[0-9]{10}/,/vip\.ffzy-online[0-9]\.com/)
+dm530.in##+js(m3u-prune,/e61170[0-9]{10}/,/vip\.ffzy.*\.com/)
 ||s2.1231218.xyz/uploads/ad/d7d7e74b603f43b3be766ddb49ee57b2.jpg$image
 ||img.solomon89.xyz/images/63e5f0c99da3db01693af67a.gif$image
 ||669aaa.us/caa1f6010b254746b96636761e5ef0f6.gif$image
