@@ -49,7 +49,7 @@ www.lofter.com###appdownloadbanner
 www.pixiv.net##.expahI.sc-12xjnzy-1,.NzNc.sc-3mzzpc-0,.jqMLBd.gcrJTU.sc-zfvkpm-0.sc-171jvz-0,.gpoeGt
 www.raybt.com##td[width="13"]
 www.serebii.net###content > .center
-www.uhiheating.com###popup,.px-0.container-fluid > .col-60,#main > .col-60,.videoShowPage
+www.uhiheating.com###popup,.px-0.container-fluid > .col-60,#main > .col-60,.videoShowPage,.bottomNav,.ggw,div[class*=text-center.alert]
 www.yizhibo.com##.register_guide
 www.xilinjie.com###xlj-da-block-overlay
 xhamster.com##.sponsorBottom
