@@ -72,8 +72,8 @@ yahoo.com###my-adsFPL,.js-stream-featured-ad
 /fans/*$domain=91porn.com|email.91dizhi.at.gmail.com.8h9.space
 /openload.co$third-party,domain=openload.co|oload.tv
 |http://*/source/plugin/u179_jtft/
-|https:$popup,domain=openload.co|oload.tv|javno.me
-|http:$popup,domain=openload.co|oload.tv
+|https:$popup,domain=openload.co|oload.tv|javno.me|supjav.com
+|http:$popup,domain=openload.co|oload.tv|supjav.com
 |http:$script,domain=imagebam.com|imagevenue.com|playvid.com|4horlover.com
 |http:$subdocument,domain=imagebam.com|playvid.com
 |http:$third-party,domain=linkshrink.net
