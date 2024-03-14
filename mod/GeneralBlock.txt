@@ -134,6 +134,7 @@ yahoo.com###my-adsFPL,.js-stream-featured-ad
 ||ero-advertising.com^
 ||etahub.com^$third-party
 ||exoticads.com^$third-party
+||fc2stream.tv/assets/jquery/app100.js$script,1p
 ||feih.com.cn^$third-party
 ||flashi.tv/histats.php?
 ||forum.xitek.com/xml/flash.swf
