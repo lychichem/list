@@ -9,6 +9,7 @@ avgle.com##.col-sm-7.col-md-8:style(width:100% !important)
 bbs.pcbeta.com##.x_m.pb_tan:upward(1)
 bbs.pcbeta.com##[class^="_jc"]:upward(4)
 bing.com###banner
+blog.csdn.net##div[class*="passport-login"]
 coding.net##.smart-app-banner
 coolapk.com##[style*="position: fixed;bottom: 0"]
 dongti233.com##.widget-graphic-cover
